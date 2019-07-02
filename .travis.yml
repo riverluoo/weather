@@ -1,0 +1,9 @@
+language: flutter
+notifications:
+  email: 769789170@qq.com
+sudo: false
+script:
+  - flutter build apk
+branches:
+  only:
+    - master
